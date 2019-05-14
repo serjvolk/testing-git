@@ -1,0 +1,21 @@
+$bg-color: #FFA31A;
+$a-color: black;
+
+#menu{
+	text-align: center;
+	a{
+		display: inline-block;
+		background-color: $bg-color;
+		color: $a-color;
+		text-decoration: none;
+		font-size: 24px;
+		width: 200px;
+		padding:{
+			top:10px;
+			bottom:10px;
+		}
+		border-radius:5px;
+	}
+}
+
+@import "inc/home";
